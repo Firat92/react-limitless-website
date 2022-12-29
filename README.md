@@ -1,10 +1,10 @@
 # Additional Notes
 
-install "npm i react-router-dom"
-install "npm i react-icons"
-install "npm i react-slick"
-install "npm i slick-carousel"
-install "npm i react-router-hash-link"
+install "npm i react-router-dom".\
+install "npm i react-icons".\
+install "npm i react-slick".\
+install "npm i slick-carousel".\
+install "npm i react-router-hash-link".\
 install "npm i styled-components"
 
 # Getting Started with Create React App
