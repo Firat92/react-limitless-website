@@ -1,0 +1,54 @@
+:root {
+	--primary-color: rgba(236, 96, 65, 1);
+	--secondary-color: rgba(178, 66, 26, 1);
+}
+
+.about-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 0.8rem;
+}
+
+.about-content-time {
+	color: var(--primary-color);
+	font-size: 0.8rem;
+	text-transform: uppercase;
+}
+
+.about-content-head {
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+
+.about-content-info {
+	max-width: 550px;
+	font-size: 0.8rem;
+}
+
+.about-content-line {
+	height: 180px;
+	border-left: 2px solid var(--primary-color);
+}
+
+.about-section {
+	background-color: var(--secondary-color);
+}
+
+.about-section-content {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	gap: 1.5rem;
+	padding: 5rem;
+	color: #fff;
+	max-width: 600px;
+}
+
+.about-section-content-btn {
+	display: flex;
+	gap: 1.5rem;
+}

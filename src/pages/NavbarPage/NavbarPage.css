@@ -1,0 +1,32 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+	max-height: 200px;
+	background-color: #fff;
+}
+
+.navbar-limit {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.navbar-limit p {
+	color: var(--primary-color);
+	font-size: 1.5rem;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: rgba(68, 59, 57, 1);
+	font-weight: 700;
+}
+
+.navbar ul {
+	display: flex;
+	margin: 0 auto;
+	gap: 3rem;
+	list-style: none;
+}

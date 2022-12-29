@@ -1,0 +1,66 @@
+:root {
+	--primary-color: rgba(236, 96, 65, 1);
+	--secondary-color: rgba(178, 66, 26, 1);
+	--third-color: rgba(132, 132, 132, 1);
+}
+
+.getinvolved-section {
+	display: flex;
+	flex-direction: column;
+}
+
+.getinvolved-section-header {
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 700;
+	margin: 3rem auto;
+}
+
+.getinvolved-section-content {
+	display: flex;
+	gap: 3rem;
+	margin: 0 auto;
+}
+
+.getinvolved-section-content-sample {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.getinvolved-section-content-sample h3 {
+	font-size: 1.5rem;
+}
+
+.sample-image {
+	position: relative;
+	background-image: url('../../images/getinvolvedimage.svg');
+	height: 386px;
+	width: 386px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.sample-image button {
+	position: absolute;
+	top: 92%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.price {
+	display: flex;
+	gap: 1rem;
+	font-weight: 700;
+	font-size: 1.2rem;
+}
+
+.price p:first-child {
+	color: var(--secondary-color);
+}
+
+.price p:last-child {
+	color: var(--third-color);
+	text-decoration: line-through;
+}

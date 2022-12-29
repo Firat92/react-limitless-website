@@ -1,0 +1,128 @@
+:root {
+	--primary-color: rgba(236, 96, 65, 1);
+	--secondary-color: rgba(178, 66, 26, 1);
+	--third-color: rgba(132, 132, 132, 1);
+	--fourth-color: rgba(236, 96, 65, 0.1);
+}
+
+.contact {
+	margin: 2rem auto;
+	position: relative;
+	max-width: 1300px;
+}
+
+.contact-image {
+	background-image: url('../../images/contactimage.svg');
+	background-repeat: no-repeat;
+	height: 500px;
+	max-width: 1000px;
+	background-position: right;
+	margin-left: 30rem;
+}
+
+.contact-us {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	background: #fff;
+	margin: 2rem 3rem;
+	padding: 2rem;
+	gap: 1rem;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	max-width: 500px;
+}
+
+.contact-us-head {
+	display: flex;
+	flex-direction: column;
+	gap: 1.2rem;
+}
+
+.contact-us-head h2 {
+	font-size: 2rem;
+}
+
+.contact-us-head p {
+	max-width: 420px;
+}
+
+.contact-us-form {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	max-width: 420px;
+}
+
+.contact-us-form fieldset {
+	border-color: var(--primary-color);
+	border-style: solid;
+	padding: 0.5rem 1rem;
+}
+
+.contact-us-form fieldset:last-of-type {
+	padding: 0.5rem 1rem 3rem;
+}
+
+.contact-us-form input {
+	border: none;
+	outline: none;
+}
+
+.contact-us-form span {
+	color: var(--primary-color);
+}
+
+.contact-us-form button {
+	text-transform: uppercase;
+	background-color: var(--primary-color);
+	color: #fff;
+	border-radius: 5px;
+	padding: 0.5rem 1rem;
+	border: none;
+	cursor: pointer;
+	box-shadow: 4px 4px 0px 0px rgba(241, 135, 111, 1),
+		8px 8px 0px 0px rgba(245, 174, 158, 1);
+	font-weight: 700;
+	letter-spacing: 0.05rem;
+}
+
+.contact-us-form button:hover {
+	background-color: #fff;
+	color: rgba(236, 96, 65, 1);
+}
+
+.touch {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 4rem auto;
+	gap: 3rem;
+}
+
+.touch h3 {
+	color: black;
+	font-size: 2rem;
+}
+
+.touch-card {
+	display: flex;
+	gap: 5rem;
+}
+
+.touch-card-sec {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1.2rem;
+	font-size: 2rem;
+	background: var(--fourth-color);
+	padding: 1rem;
+	width: 260px;
+	height: 190px;
+}
+
+.touch-card-sec p {
+	font-weight: 700;
+}
